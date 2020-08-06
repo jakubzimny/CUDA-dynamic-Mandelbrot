@@ -6,7 +6,7 @@ Application generating Mandelbrot set visualization using CUDA dynamic paralleli
 This repository contains a regular CUDA implementation of Mandelbrot set visualization (mandel.cu file) and one with dynamic parallelism implemented (dynamic_mandel.cu file) and its main purpose was to compare performance improvements between those two versions. 
 
 ## Compilation
-To compile those files you need to have a suitable NVIDIA GPU and CUDA development enviroment configured.
+To compile and run those programs you need to have a suitable NVIDIA GPU and CUDA development enviroment configured.
 
 Regular version:
 `nvcc mandel.cu -lpng -o mandel`
