@@ -1,7 +1,7 @@
 # CUDA-dynamic-Mandelbrot
 
 ## Overview
-Application generating Mandelbrot set visualization using CUDA dynamic parallelism. This project was based on the idea presented in [this NVIDIA Developer blog article](https://developer.nvidia.com/blog/introduction-cuda-dynamic-parallelism/) and their solution is probably a better and more optimized one.
+Application generating Mandelbrot set visualization using CUDA dynamic parallelism. This project was based on the idea presented in [this NVIDIA Developer blog article](https://developer.nvidia.com/blog/introduction-cuda-dynamic-parallelism/) and their solution is probably better and more optimized one.
 
 This repository contains a regular CUDA implementation of Mandelbrot set visualization (mandel.cu file) and one with dynamic parallelism implemented (dynamic_mandel.cu file) and its main purpose was to compare performance improvements between those two versions. 
 
